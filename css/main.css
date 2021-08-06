@@ -1,19 +1,28 @@
 html {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
-* *::before *::after {
+* {
   box-sizing: inherit;
 }
 
+* *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+
 body {
-      background-color #ccc;
-font-family:sans-serif;
+  background-color: #ccc;
+  font-family: sans-serif;
 }
 
 h1 {
   font-size: 1.5rem;
+}
 
-  article {
-  font-style: italic
-color: #666;}
+article {
+  font-style: italic;
+  color: #666;
+}
